@@ -1,0 +1,129 @@
+html,
+body {
+  overflow: auto;
+}
+
+body {
+  font-family: 'PT Serif', serif; // Keep the existing font
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('../images/featureBG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+.aboutUsContainer {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  margin-top: 150px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); // Add a white background with transparency
+  border-radius: 10px; // Rounded corners
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Soft shadow
+}
+
+.introSection {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 2.8rem; // Slightly increased size for main heading
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); // Subtle text shadow
+  }
+
+  h3 {
+    font-size: 1.6rem; // Increased size for subheading
+    color: #2980b9; // Change color for emphasis
+    margin-bottom: 15px;
+    letter-spacing: 0.5px; // Slightly increase letter spacing
+  }
+
+  p {
+    font-size: 1.1rem; // Slightly larger body text
+    color: #555;
+    line-height: 1.7; // Increased line height for better readability
+    max-width: 800px; // Limit width for better readability
+    margin: 0 auto; // Center the paragraph
+  }
+}
+
+.teamSection {
+  h2 {
+    font-size: 2.2rem; // Increased size for team section heading
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-transform: uppercase; // Uppercase for emphasis
+    letter-spacing: 1px; // Slightly increase letter spacing
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; // Smooth transition
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); // Increase shadow on hover
+    }
+
+    .memberPhoto {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #2980b9; // Add border to photos
+    }
+
+    h3 {
+      font-size: 1.4rem; // Increased size for member name
+      margin-bottom: 10px;
+      color: #333;
+      font-weight: 500; // Medium font weight for emphasis
+    }
+
+    h4 {
+      font-size: 1rem; // Slightly larger role text
+      color: #777;
+      margin-bottom: 10px;
+      font-style: italic; // Italicize role for differentiation
+    }
+
+    p {
+      font-size: 0.9rem; // Keep the same size for description
+      color: #555;
+      line-height: 1.4; // Maintain line height for readability
+    }
+  }
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10 px 0;
+}

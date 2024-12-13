@@ -1,0 +1,153 @@
+html {
+  background: url(./images/featureBG.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.servicesSection {
+  display: flex;
+  align-items: start;
+  gap: 40px 80px;
+  overflow: hidden;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 7px 112px 64px;
+
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  border-top: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.headerSection {
+  display: flex;
+  margin-top: 50px;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  width: 380px;
+}
+
+.tagline {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--Text-primary, #000);
+}
+
+.headerContent {
+  margin-top: 16px;
+}
+
+.mainHeading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--Text-primary, #000);
+}
+
+.mainDescription {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 24px;
+  color: var(--Text-primary, #000);
+}
+
+.actionButtons {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  gap: 24px;
+}
+
+.actionButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.secondary {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.buttonIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 64px;
+  flex: 1;
+  min-width: 240px;
+}
+
+.featuresGrid {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.featureCard {
+  flex: 1;
+  min-width: 240px;
+}
+
+.featureIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.featureTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-top: 24px;
+  color: var(--Text-primary, #000);
+}
+
+.featureDescription {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  color: var(--Text-primary, #000);
+}
+
+@media (max-width: 991px) {
+  .servicesSection {
+    padding: 0 0 100px 20px;
+  }
+
+  .tagline {
+    white-space: initial;
+  }
+
+  .mainHeading {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .actionButton {
+    padding: 0 20px;
+  }
+
+  .featuresGrid {
+    max-width: 100%;
+  }
+
+  .featuresContainer {
+    gap: 40px;
+  }
+}
