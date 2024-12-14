@@ -11,13 +11,13 @@ const Offers: React.FC = () => {
       description:
         'Eco-friendly cleaning for your home using non-toxic, biodegradable products.',
       icon: '🏠',
-      price: '18€/h',
+      price: '20€/h',
     },
     {
       title: 'Office Cleaning',
       description: 'Sustainable cleaning solutions for a healthier workplace.',
       icon: '🏢',
-      price: '16€/h',
+      price: '25€/h',
     },
     {
       title: 'Carpet Cleaning',

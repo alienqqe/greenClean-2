@@ -18,6 +18,7 @@ export const GreenClean: React.FC = () => {
     { text: 'SWOT', href: '/swot' },
     { text: 'Business plan', href: '/plan' },
     { text: 'Gantov Diagram', href: '/diagram' },
+    { text: 'Feasibility Study', href: '/feasibility' },
   ]
 
   const socialLinks = [

@@ -10,6 +10,7 @@ import Diagram from './components/Diagram'
 import Plan from './components/Plan'
 import { useEffect, useState } from 'react'
 import Offers from './components/Offers.js'
+import Feasibility from './components/Feasibility.js'
 
 function App() {
   const [isLoading, setLoading] = useState(true)
@@ -37,6 +38,7 @@ function App() {
             <Route path='/diagram' element={<Diagram />} />
             <Route path='/plan' element={<Plan />} />
             <Route path='/offers' element={<Offers />} />
+            <Route path='/feasibility' element={<Feasibility />} />
           </Routes>
         </BrowserRouter>
       )}

@@ -4,6 +4,7 @@ import { FooterProps } from '../types/types'
 import { NavLink } from './NavLink'
 import { ASSETS } from '../assets/assets'
 import styles from '../styles/Footer.module.scss'
+import ContactForm from './ContactForm'
 
 export const Footer: React.FC<FooterProps> = ({ socialLinks }) => {
   return (
@@ -38,6 +39,7 @@ export const Footer: React.FC<FooterProps> = ({ socialLinks }) => {
         </div>
       </div>
       <hr />
+      <ContactForm />
       <footer
         style={{
           fontSize: '0.9rem',
