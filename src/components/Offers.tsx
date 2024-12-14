@@ -1,4 +1,3 @@
-// Offers.tsx
 import React from 'react'
 import style from '../styles/Offers.module.scss'
 import { Navbar } from './Navbar'

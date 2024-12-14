@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/AboutUs.module.scss'
 import { ASSETS } from '../assets/assets'
-import pfp from '../images/pfp.jpg'
+import pfp from '../../public/images/pfp.jpg'
 import { Navbar } from './Navbar'
 import { Link } from 'react-router-dom'
 

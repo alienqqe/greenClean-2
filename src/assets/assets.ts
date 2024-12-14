@@ -1,6 +1,6 @@
-import sarah_pfp from '../images/sarah_pfp.jpg'
-import michael_pfp from '../images/michael_pfp.webp'
-import emily_pfp from '../images/emily_pfp.jpg'
+import sarah_pfp from '../../public/images/sarah_pfp.jpg'
+import michael_pfp from '../../public/images/michael_pfp.webp'
+import emily_pfp from '../../public/images/emily_pfp.jpg'
 
 export const ASSETS = {
   LOGO: 'https://cdn.builder.io/api/v1/image/assets/TEMP/33f7a194ea3f09172b504320e53435c3fc9edd4d6faaff83b2893178abc0b441?placeholderIfAbsent=true',

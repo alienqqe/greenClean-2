@@ -1,6 +1,6 @@
 import { Navbar } from './Navbar'
 import { ASSETS } from '../assets/assets'
-import diagram from '../images/diagram.png'
+import diagram from '../../public/images/diagram.png'
 
 const Diagram = () => {
   const navLinks = [

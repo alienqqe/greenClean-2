@@ -1,6 +1,6 @@
 import { ASSETS } from '../assets/assets'
 import { Navbar } from './Navbar'
-import SWOT from '../images/SWOT.png'
+import SWOT from '../../public/images/SWOT.png'
 
 const Swot = () => {
   const navLinks = [

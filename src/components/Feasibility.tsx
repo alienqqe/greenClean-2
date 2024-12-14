@@ -76,7 +76,7 @@ const Feasibility = () => {
 
         <h2>4. Finančná uskutočniteľnosť</h2>
         <img
-          src='/src/images/finance_analyzis.png'
+          src='../images/finance_analyzis.png'
           className='img-fluid py-4'
           alt=''
         />
