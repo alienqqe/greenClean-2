@@ -75,23 +75,11 @@ const Feasibility = () => {
         </ul>
 
         <h2>4. Finančná uskutočniteľnosť</h2>
-        <h3>Počiatočné náklady:</h3>
-        <ul>
-          <li>Vybavenie: 10 000 EUR</li>
-          <li>Marketing: 3 000 EUR</li>
-          <li>Školenie zamestnancov: 2 000 EUR</li>
-          <li>Administratíva a registrácie: 1 000 EUR</li>
-        </ul>
-        <h3>Očakávané príjmy:</h3>
-        <p>
-          Sadzby: 20 EUR/hodina (domácnosti), 25 EUR/hodina (firmy).
-          Predpokladaný mesačný obrat: 5 000 – 7 000 EUR po 3 mesiacoch.
-        </p>
-        <h3>Financovanie:</h3>
-        <p>
-          Možnosti zahŕňajú vlastné zdroje, mikroúvery a príspevky z
-          environmentálnych fondov.
-        </p>
+        <img
+          src='/src/images/finance_analyzis.png'
+          className='img-fluid py-4'
+          alt=''
+        />
 
         <h2>5. Organizačná uskutočniteľnosť</h2>
         <h3>Tím:</h3>
