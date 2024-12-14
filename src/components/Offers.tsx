@@ -40,6 +40,27 @@ const Offers: React.FC = () => {
       icon: '🧹',
       price: '25€/h',
     },
+    {
+      title: 'Monthly House Care Package',
+      description:
+        'Full care house package. Includes window cleaning, carpet cleaning and throrough residential cleaning once a week.',
+      icon: '🏠📅✨',
+      price: '120€ / month',
+    },
+    {
+      title: 'Monthly Office Care Package',
+      description:
+        'Full care office package. Includes window cleaning and throrough office cleaning once a week.',
+      icon: '🏢📅✨',
+      price: '100€ / month',
+    },
+    {
+      title: 'Ultimate Package',
+      description:
+        'Full care package for 2 buildings of your choice. Includes window cleaning, carpet cleaning and deep cleaning TWICE a week.',
+      icon: '🎯🌟',
+      price: '300€ / month',
+    },
   ]
 
   const ecoProducts = [
@@ -80,7 +101,7 @@ const Offers: React.FC = () => {
             </div>
           ))}
         </div>
-        <section className={style.ecoProducts}>
+        <section className={`${style.ecoProducts} mb-5 `}>
           <h2>Which products are we using?</h2>
           <ul>
             {ecoProducts.map((product, index) => (
