@@ -38,7 +38,7 @@ export const Hero: React.FC<HeroProps> = ({
               size='regular'
               ariaLabel='Learn more about our services'
             >
-              <Link to='/offers'>Learn More</Link>
+              <a href='/about'>Learn More</a>
             </Button>
           </a>
         </div>

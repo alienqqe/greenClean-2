@@ -3,6 +3,7 @@ import styles from '../styles/AboutUs.module.scss'
 import { ASSETS } from '../assets/assets'
 import pfp from '../images/pfp.jpg'
 import { Navbar } from './Navbar'
+import { Link } from 'react-router-dom'
 
 const teamMembers = [
   {
@@ -57,10 +58,11 @@ const AboutUs: React.FC = () => {
             company GreenClean
           </h3>
           <p>
-            At GreenClean, we are dedicated to promoting sustainable living and
-            providing eco-friendly cleaning and organizational solutions. Our
-            team is passionate about making a positive impact on the environment
-            while improving the quality of life for our customers.
+            At <Link to='/anotation'>GreenClean</Link>, we are dedicated to
+            promoting sustainable living and providing eco-friendly cleaning and
+            organizational solutions. Our team is passionate about making a
+            positive impact on the environment while improving the quality of
+            life for our customers.
           </p>
         </section>
 

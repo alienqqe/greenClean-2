@@ -22,7 +22,7 @@ export const Feature: React.FC<FeatureProps> = ({
             size='regular'
             ariaLabel='Learn more about our features'
           >
-            <a href='/offers'>Learn More</a>
+            <a href='/about'>Learn More</a>
           </Button>
         </div>
       </div>
